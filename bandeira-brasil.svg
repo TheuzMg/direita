@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 504">
+  <!-- Verde -->
+  <rect width="720" height="504" fill="#009C3B"/>
+  <!-- Losango amarelo -->
+  <polygon points="360,28 696,252 360,476 24,252" fill="#FFDF00"/>
+  <!-- Círculo azul -->
+  <circle cx="360" cy="252" r="148" fill="#002776"/>
+  <!-- Faixa branca - arco de elipse -->
+  <path d="M218,290 Q360,228 502,290" stroke="white" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <!-- Texto na faixa -->
+  <path id="bandText" d="M222,286 Q360,230 498,286" fill="none"/>
+  <text font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#009C3B" letter-spacing="1">
+    <textPath href="#bandText" startOffset="50%" text-anchor="middle">ORDEM E PROGRESSO</textPath>
+  </text>
+  <!-- Estrelas (representativas) -->
+  <g fill="white" opacity="0.95">
+    <!-- Estrela Crux Maior - Alfa -->
+    <polygon points="310,180 313,170 316,180 326,180 318,186 321,196 313,190 305,196 308,186 300,180" transform="scale(0.8) translate(75,42)"/>
+    <!-- estrela 2 -->
+    <polygon points="400,165 402,158 404,165 411,165 405,169 408,177 401,172 394,177 397,169 391,165" transform="scale(0.7) translate(90,30)"/>
+    <!-- estrela 3 -->
+    <polygon points="430,210 432,203 434,210 441,210 435,214 438,222 431,217 424,222 427,214 421,210" transform="scale(0.6) translate(95,45)"/>
+    <!-- estrela 4 -->
+    <polygon points="370,230 372,223 374,230 381,230 375,234 378,242 371,237 364,242 367,234 361,230" transform="scale(0.65) translate(85,55)"/>
+    <!-- estrela 5 -->
+    <polygon points="350,195 352,188 354,195 361,195 355,199 358,207 351,202 344,207 347,199 341,195" transform="scale(0.55) translate(80,42)"/>
+    <!-- Estrela maior sul -->
+    <polygon points="295,240 299,226 303,240 317,240 306,249 310,263 299,254 288,263 292,249 281,240" transform="scale(0.75) translate(60,30)"/>
+    <!-- Mais estrelas na parte superior do círculo -->
+    <polygon points="390,145 392,138 394,145 401,145 395,149 398,157 391,152 384,157 387,149 381,145" transform="scale(0.5) translate(140,20)"/>
+    <polygon points="440,175 442,168 444,175 451,175 445,179 448,187 441,182 434,187 437,179 431,175" transform="scale(0.5) translate(145,30)"/>
+    <polygon points="460,220 462,213 464,220 471,220 465,224 468,232 461,227 454,232 457,224 451,220" transform="scale(0.5) translate(145,50)"/>
+    <polygon points="445,260 447,253 449,260 456,260 450,264 453,272 446,267 439,272 442,264 436,260" transform="scale(0.5) translate(140,70)"/>
+    <!-- estrela Alfa Crux grande -->
+    <polygon points="275,215 279,201 283,215 297,215 286,224 290,238 279,229 268,238 272,224 261,215" transform="scale(0.9) translate(55,25)"/>
+  </g>
+</svg>

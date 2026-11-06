@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        // Find dot 6 and click it
+        const dot6 = document.querySelector('.comic-dot[data-page="6"]');
+        if (dot6) dot6.click();
+      }, 300);
+    });
+  </script>
+</head>
+<body style="margin:0;padding:0;">
+  <iframe id="testFrame" src="index.html" style="width:100vw;height:100vh;border:none;"></iframe>
+</body>
+</html>
